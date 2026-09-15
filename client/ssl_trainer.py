@@ -23,7 +23,7 @@ from models.encoder import ResNet18Encoder #ResNet50Encoder, build_vgg19bn_encod
 from models.projection_head import ProjectionHead
 from models.BYOLPredictor import BYOLPredictor
 from models.SimSiamPredictor import SimSiamPredictor
-from client_V0.datasets import ContrastiveDataset
+from client.datasets import ContrastiveDataset
 
 # ============================================================
 # Main entry point

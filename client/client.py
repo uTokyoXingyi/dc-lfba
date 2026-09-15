@@ -16,9 +16,9 @@ from pathlib import Path
 import numpy as np
 import random
 
-from client_V0.ssl_trainer_SimCLR import train_encoder
+from client.ssl_trainer_SimCLR import train_encoder
 from common.utils import save_encoder_checkpoint
-from client_V0.embedding_generator import compute_embeddings
+from client.embedding_generator import compute_embeddings
 
 def parse_args(): # my own function -- store the procedure for arguments container
     """

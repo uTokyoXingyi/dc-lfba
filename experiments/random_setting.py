@@ -45,7 +45,7 @@ CSV_FIELDS_Baseline = [
 # our method
 ## ssl
 # EPOCHS_SSL_LIST = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25, 50, 100]
-EPOCHS_SSL_LIST = [100]
+EPOCHS_SSL_LIST = [1]
 batch_size_ssl = 512
 num_workers_ssl = 8
 learning_rate_ssl = 0.3
@@ -75,7 +75,7 @@ log_interval = 20
 
 ## head training
 HEAD_EPOCHS = 25
-HEAD_LR = 0.01 #0.001
+HEAD_LR = 0.01
 HEAD_WD = 1e-5
 
 # baseline - supervised
@@ -115,9 +115,9 @@ def main():
     # -------------------------
     for e_ssl in EPOCHS_SSL_LIST:
         print(f"Running Epoch {e_ssl}")
-        -------------------------
-        SimCLR
-        -------------------------
+        # -------------------------
+        # SimCLR
+        # -------------------------
         if e_ssl == 0:
             encoder = ResNet18Encoder(pretrained=True)
         else:

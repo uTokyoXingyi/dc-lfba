@@ -9,8 +9,8 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import datasets, transforms, models
 from tqdm import tqdm
 
-# from client_V0.ssl_trainer import train_encoder
-from client_V0.ssl_trainer import train_encoder
+# from client.ssl_trainer import train_encoder
+from client.ssl_trainer import train_encoder
 
 from server.head_trainer import train_classifier_head
 

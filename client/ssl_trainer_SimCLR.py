@@ -21,7 +21,7 @@ import torch.nn.functional as F
 # from models.encoder import build_vgg19bn_encoder
 from models.encoder import ResNet18Encoder, ResNet50Encoder, build_vgg19bn_encoder
 from models.projection_head import ProjectionHead
-from client_V0.datasets import ContrastiveDataset
+from client.datasets import ContrastiveDataset
 
 # ============================================================
 # Main entry point

@@ -1,4 +1,4 @@
-# client_V0: the first idea -- DC-LFBA
+# client: the first idea -- DC-LFBA
 - ssl_trainer_SimCLR: only related to SimCLR
 - ssl_trainer: Combine MoCo, SimSaim, BYOL, SimCLR together
 ## parameters
