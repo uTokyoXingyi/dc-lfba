@@ -1,0 +1,2 @@
+method,epochs,loss,s_acc,b_acc
+pretrained_frozen_plus_head,50,0.0385707674493636,0.9877564311027527,0.9853274954689873

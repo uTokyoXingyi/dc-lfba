@@ -1,0 +1,6 @@
+method,epochs,total_time_sec
+supervised_LFBA,100,960.213344552787
+
+===== Supervised LFBA Timing =====
+Total: 960.21 s (16.00 min)
+====================================

@@ -1,0 +1,14 @@
+# experiment:
+#   name: "embeddings compute"
+#   output_dir: "checkpoint/"
+encoder:
+  ckpt_path: "checkpoints/ssl/encoder.pth"
+
+data:
+  root: "data/client/labeled"
+  image_size: 224
+  batch_size: 64
+  num_workers: 4
+
+embeddings:
+  output_path: "outputs/embeddings/"

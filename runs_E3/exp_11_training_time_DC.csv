@@ -1,0 +1,8 @@
+method,ssl_epochs,head_epochs,ssl_time_sec,embedding_time_sec,head_time_sec,total_time_sec
+DC-LFBA,100,50,21637.417117187986,7.194461676990613,9.348304428858683,21653.959883293835
+========== DC-LFBA Timing ==========
+SSL training:         21637.42 s (360.62 min)
+Embedding generation: 7.19 s (0.12 min)
+Head training:        9.35 s (0.16 min)
+Total:                21653.96 s (360.90 min)
+====================================

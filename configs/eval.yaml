@@ -1,0 +1,16 @@
+
+test_data:
+  root: "data/evaluation/test"
+  # root: "data/client/labeled"
+  # root: "outputs/embeddings/client_embeddings.pt"
+  image_size: 224
+  batch_size: 64
+  number_workers: 4
+
+encoder:
+  ckpt_path: "checkpoints/ssl/encoder.pth"
+
+head:
+  ckpt_path: "checkpoints/head/classifier_head.pth"
+  num_classes: 9
+

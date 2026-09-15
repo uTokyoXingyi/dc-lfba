@@ -1,0 +1,1 @@
+python3 -m server.server --headtrain-config configs/head_train.yaml

@@ -1,0 +1,26 @@
+training:
+  epochs: 300
+  batch_size: 512
+  num_workers: 8
+  learning_rate: 0.6
+  weight_decay: 1e-4
+  temperature: 0.1
+  seed: 42
+optimizer:
+  type: "sgd"
+  momentum: 0.9
+
+data:
+  root: "data/client/unlabeled"
+  image_size: 224 #output size
+
+checkpoint:
+  save_dir: "checkpoints/ssl"
+  save_interval: 10   # epochs
+  ssl_csv_path: "checkpoints/ssl_metrics.csv"
+
+model:
+  projection_dim: 128
+
+logging:
+  log_interval: 100

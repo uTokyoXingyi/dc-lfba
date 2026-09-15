@@ -1,0 +1,13 @@
+embeddings:
+  root: "outputs/embeddings/client_embeddings.pt"
+
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  momentum: 0.9
+  weight_decay: 1e-4
+  epochs: 50
+
+checkpoint:
+  head_save_path: "checkpoints/head"
+  train_csv_path: "checkpoints/head_training_metrics.csv"

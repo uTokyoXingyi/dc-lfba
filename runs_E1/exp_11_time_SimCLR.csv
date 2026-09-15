@@ -1,0 +1,2 @@
+method,ssl_epochs,loss,s_acc,b_acc
+ours_ssl_then_head,1,1.8904677388843205,0.2908669710159302,0.12228954169485304
