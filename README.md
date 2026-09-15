@@ -19,3 +19,5 @@ This requires only a single round of communication (rather than one pertraining 
 > (Stages I & II) with the client/controller split simulated locally on a
 > single machine. Real network communication between devices is not
 > implemented in this version.
+
+## Project Structure

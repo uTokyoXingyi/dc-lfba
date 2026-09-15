@@ -44,8 +44,7 @@ CSV_FIELDS_Baseline = [
 ]
 # our method
 ## ssl
-# EPOCHS_SSL_LIST = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25, 50, 100]
-EPOCHS_SSL_LIST = [1]
+EPOCHS_SSL_LIST = [1, 2, 3, 4, 5, 10, 25, 50, 100]
 batch_size_ssl = 512
 num_workers_ssl = 8
 learning_rate_ssl = 0.3
