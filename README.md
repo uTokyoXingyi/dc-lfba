@@ -1,6 +1,8 @@
 # DC-LFBA: Distributed Contrastive Learning for Logic-Free Building Automation
 **Contrastive Learning Based Logic-Free Building Automation: A Distributed Approach**
+
 author 1, author 2 — The University of Tokyo
+
 *Accepted at IEEE WFIoT 2026. Paper to appear — citation details will be added once published.*
 
 ## Overview
