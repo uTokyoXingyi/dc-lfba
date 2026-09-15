@@ -23,7 +23,7 @@ This requires only a single round of communication (rather than one pertraining 
 > implemented in this version.
 
 ## Project Structure
-
+```
 .
 ├── client/ # Camera-node logic (Stage I & II, client side)
 │ ├── client.py
@@ -65,7 +65,7 @@ This requires only a single round of communication (rather than one pertraining 
 ├── pyproject.toml
 ├── uv.lock
 └── README.md
-
+```
 
 | Path | What it is |
 |---|---|
